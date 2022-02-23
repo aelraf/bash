@@ -1,7 +1,7 @@
 #!/bin/bash
 
 repeta="tak"
-while [ $repeta = "tak" ]
+until [ $repeta = "nie" ]
 do
 df -h
 echo "Czy wyswietlic ponownie statystyki?"
