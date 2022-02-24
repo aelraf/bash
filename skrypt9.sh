@@ -4,6 +4,9 @@
 # przez dodanie dodatkowego czlonu .old
 # wczesniej kasuje wszystkie pliki, ktore juz maja takie rozszerzenie
 
+ARGS=2
+E_BADARGS=65
+
 if [ $# -ne "$ARGS" ]
 then
   echo "Uzycie: `basename $0` zrodlo miejsce_docelowe"
